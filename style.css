@@ -1,0 +1,101 @@
+html {background:url("back.jpg");
+}
+
+a:link {color: #FF0000  }
+a:visited {color: #0c089d;
+ 
+}
+a:hover { color: #3d0079;
+background:#000000 }
+
+p{
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+h1 {
+  text-align:center;
+  font-family: Arial,sans-serif,Helvetica;
+  font-weight: bold;
+  font-size: 24px;
+  color: #4c0099;
+}
+h3{
+    color: #000000;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+body{
+  background-image: url(back.jpg);
+}
+td{
+   background-image:url("black2.png");
+}
+tr{
+    background-image:url("black2.png");
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+}
+h3{
+  background-image: url("back.jpg");
+}
+body {
+     background-color: #000;
+}
+
+#leftfore, #mover, #rightfore {
+     position: absolute;
+     top: 5px;
+}
+
+#leftfore {
+     top: 0;
+     z-index: 2;
+}
+
+#mover {
+     top: 5px;
+     z-index: 1;
+}
+
+#rightfore {
+     top: 470px;
+     z-index: 2;
+}
+#gametext{
+      font-size: 20px;
+      top: 0px;
+      color: #ffffff;
+      text-align: center;
+      position: absolute;
+      font-family: Verdana,Arial,Helvetica,sans-serif;
+      left: 500px;
+}
+#gameboard{
+    text-align: center;
+    background-image: url(black.gif);
+    width: 400px;
+}
+#typed{
+    background-image: url(../city/four.png);
+    color: #ffffff;
+    font-style: normal;
+    font-size: 36px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+#texture{
+
+    background-image: url(grains.gif);
+}
+#score{
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+
